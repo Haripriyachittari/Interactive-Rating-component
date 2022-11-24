@@ -78,14 +78,35 @@ p{
 .thanks{
     max-height: 50vh;
     background-color:hsl(214, 21%, 15%);
-    padding:2em;
+    padding:3em;
     width:25%;
-    height: 48vh;
+    height: 50vh;
     border-radius: 20px;
     margin-left:20px;
     text-align: center;
     
 }
+#rate-again{
+    
+    color:inherit;
+    font-family: inherit;
+    font-weight: 800;
+    width:100%;
+    background-color:hsl(25, 97%, 53%) ;
+    border-radius: 20px;
+    border:none;
+    padding:0.8em 0.8em;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin-bottom:0.8em;
+}
+#rate-again:hover{
+    font-weight: 800;
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+    border: 2px solid hsl(25, 97%, 53%);
+}
+
 .hidden{
     display: none;
 }

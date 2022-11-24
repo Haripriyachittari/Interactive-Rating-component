@@ -11,7 +11,13 @@ const thanksCard=document.querySelector('.thanks');
  function submitRating()
 {
    thanksCard.classList.remove('hidden');
+  
    rateCard.classList.add('hidden')
+}
+function rateAgain()
+{
+   thanksCard.classList.add('hidden');
+   rateCard.classList.remove('hidden')
 }
 
 one.addEventListener('click', () => {
