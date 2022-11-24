@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+}
+.rate{
+    max-height: 50vh;
+background-color:hsl(214, 21%, 15%);
+padding:2em;
+width:25%;
+height: 48vh;
+border-radius: 20px;
+
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 800;
+    font-size: 0.9em;
+}
+#submit{
+    
+    color:inherit;
+    font-family: inherit;
+    font-weight: 800;
+    width:100%;
+    background-color:hsl(25, 97%, 53%) ;
+    border-radius: 20px;
+    border:none;
+    padding:0.8em 0.8em;
+    letter-spacing: 4px;
+    margin-top:1em;
+    cursor: pointer;
+}
+#submit:hover{
+    font-weight: 800;
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+    border: 2px solid hsl(25, 97%, 53%);
+}
+
+.ratings{
+    margin:1em 0;
+    display:flex;
+    justify-content: space-between;
+}
+.ratings button{
+    padding:0.8em;
+    border-radius: 50%;
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(203, 20%, 23%);
+    font-size: 0.9em;
+    font-weight: 600;
+    border:none;
+    height:45px;
+    width: 45px;
+    transition:  1s all ease-in-out;
+}
+.ratings button:hover{
+    background-color:hsl(203, 14%, 33%) ;
+}
+.ratings button:focus{
+    background-color:hsl(25, 97%, 53%) ;
+}
+#star{
+    border-radius: 50%;
+    background-color: hsl(203, 20%, 23%);
+    height:45px;
+    width: 45px;
+    border: none;
+    
+}
+.thanks{
+    max-height: 50vh;
+    background-color:hsl(214, 21%, 15%);
+    padding:2em;
+    width:25%;
+    height: 48vh;
+    border-radius: 20px;
+    margin-left:20px;
+    text-align: center;
+    
+}
+.hidden{
+    display: none;
+}
+.user-rating{
+    color:hsl(25, 97%, 53%) ;
+    background-color:hsl(203, 20%, 23%) ;
+    border-radius: 20px;
+    padding: 0.4em;
+    width:50%;
+    margin:1em auto;
+}
+
+@media screen  and (max-width:768px){
+    .rate{
+        width:90%;
+    
+    }
+    .thanks{
+        width:90%;
+    
+    }
+}
+@media screen  and (max-width:1068px){
+    .rate{
+        width:70%;
+        
+    }
+    .thanks{
+        width:70%;
+       
+    }
+}
