@@ -121,11 +121,11 @@ p{
 
 @media screen  and (max-width:768px){
     .rate{
-        width:90%;
+        width:100%;
     
     }
     .thanks{
-        width:90%;
+        width:100%;
     
     }
 }
